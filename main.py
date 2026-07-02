@@ -77,3 +77,6 @@ print(f"Sorted Data: {sorted_data}")
 print(f"Total elements (n): {n}")
 print(f"Calculated Median: {median}")
 
+
+# Issue : The following code is too messy actually after the avg code try to simulate the same thing using numpy cause it has built in functions 
+
