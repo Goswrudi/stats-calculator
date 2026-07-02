@@ -39,3 +39,18 @@ mode = l + (numerator / denominator) * h
 print(f"Modal Class: {class_intervals[modal_index]}")
 print(f"Variables: l={l}, h={h}, f1={f1}, f0={f0}, f2={f2}")
 print(f"Calculated Mode: {mode:.4f}")
+
+
+
+#  The median formula :
+
+# There are total two cases 
+
+#  If n is odd :
+# M = (n+1 / 2)^th term
+
+
+#  If n is even:
+#  M = ( (n / 2) term + (n / 2 + 1 ) / 2 )
+
+
