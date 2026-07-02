@@ -54,3 +54,26 @@ print(f"Calculated Mode: {mode:.4f}")
 #  M = ( (n / 2) term + (n / 2 + 1 ) / 2 )
 
 
+# 1. Define raw, unsorted data
+data = [12, 3, 5, 20, 8, 15, 18, 9]
+
+# 2. Step 1: Sort the data in ascending order
+sorted_data = sorted(data)
+n = len(sorted_data)
+
+# 3. Step 2: Apply conditional logic for Odd vs Even
+if n % 2 != 0:
+    # Odd case: Pick the single middle index
+    middle_index = n // 2
+    median = sorted_data[middle_index]
+else:
+    # Even case: Average the two middle indices
+    idx1 = (n // 2) - 1
+    idx2 = n // 2
+    median = (sorted_data[idx1] + sorted_data[idx2]) / 2
+
+# 4. Output results
+print(f"Sorted Data: {sorted_data}")
+print(f"Total elements (n): {n}")
+print(f"Calculated Median: {median}")
+
